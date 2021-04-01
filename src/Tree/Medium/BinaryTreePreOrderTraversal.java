@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class BinaryTreeInOrderTraversal {
+public class BinaryTreePreOrderTraversal {
     public static void main(String[] args) {
         /*
                             1
@@ -30,26 +30,26 @@ public class BinaryTreeInOrderTraversal {
 
         System.out.println(
                 Arrays.toString(
-                        inorderTraversal(tree)
+                        preorderTraversal(tree)
                                 .toArray()
                 )
         );
     }
 
-    public static List<Integer> inorderTraversal(TreeNode root) {
+    public static List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        inOrderHelper(root, list);
+        preOrderHelper(root, list);
         return list;
     }
 
-    private static void inOrderHelper(TreeNode node, List<Integer> list) {
+    private static void preOrderHelper(TreeNode node, List<Integer> list) {
         if (node == null) return;
 
-        inOrderHelper(node.left, list);
         list.add(node.val);
-        inOrderHelper(node.right, list);
+        preOrderHelper(node.left, list);
+        preOrderHelper(node.right, list);
     }
 /*
-    Given the root of a binary tree, return the inorder traversal of its nodes' values.
+    Given the root of a binary tree, return the preorder traversal of its nodes' values.
 */
 }
