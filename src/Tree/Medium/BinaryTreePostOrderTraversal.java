@@ -49,6 +49,7 @@ public class BinaryTreePostOrderTraversal {
         postOrderHelper(node.right, list);
         list.add(node.val);
     }
+
 /*
     Given the root of a binary tree, return the postorder traversal of its nodes' values.
 */
