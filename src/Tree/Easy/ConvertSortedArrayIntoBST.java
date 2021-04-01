@@ -1,4 +1,6 @@
-package Tree;
+package Tree.Easy;
+
+import Tree.TreeNode;
 
 public class ConvertSortedArrayIntoBST {
     public static void main(String[] args) {
