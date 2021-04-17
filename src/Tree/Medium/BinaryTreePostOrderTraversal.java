@@ -14,6 +14,7 @@ public class BinaryTreePostOrderTraversal {
               4           5   6             7
         */
 
+        BinaryTreePostOrderTraversal o = new BinaryTreePostOrderTraversal();
         TreeNode tree = new TreeNode(
                 1,
                 new TreeNode(
@@ -30,21 +31,21 @@ public class BinaryTreePostOrderTraversal {
 
         System.out.println(
                 Arrays.toString(
-                        postorderTraversal(tree)
+                        o.postorderTraversal(tree)
                                 .toArray()
                 )
         );
     }
 
-    public static List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         postOrderHelper(root, list);
         return list;
     }
 
-    private static void postOrderHelper(TreeNode node, List<Integer> list) {
-        if (node == null) return;
-
+    private void postOrderHelper(TreeNode node, List<Integer> list) {
+        if (node == null)
+            return;
         postOrderHelper(node.left, list);
         postOrderHelper(node.right, list);
         list.add(node.val);

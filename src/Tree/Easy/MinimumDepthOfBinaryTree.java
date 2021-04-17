@@ -10,6 +10,7 @@ public class MinimumDepthOfBinaryTree {
               N           N  15             7
         */
 
+        MinimumDepthOfBinaryTree o = new MinimumDepthOfBinaryTree();
         TreeNode tree = new TreeNode(
                 3,
                 new TreeNode(
@@ -24,16 +25,16 @@ public class MinimumDepthOfBinaryTree {
                 )
         );
 
-        System.out.println(minDepth(tree));
+        System.out.println(o.minDepth(tree));
         //  2
     }
 
-    public static int minDepth(TreeNode root) {
+    public int minDepth(TreeNode root) {
         if (root == null) return 0;
         return height(root);
     }
 
-    public static int height(TreeNode root) {
+    private int height(TreeNode root) {
         if (root == null)
             return 0;
 

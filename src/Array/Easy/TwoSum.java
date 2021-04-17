@@ -5,14 +5,15 @@ import java.util.HashMap;
 
 public class TwoSum {
     public static void main(String[] args) {
+        TwoSum o = new TwoSum();
         System.out.println(
                 Arrays.toString(
-                        twoSum(new int[]{2, 7, 11, 15}, 26)
+                        o.twoSum(new int[]{2, 7, 11, 15}, 26)
                 )
         );
     }
 
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int y;
         for (int i = 0; i < nums.length; i++) {

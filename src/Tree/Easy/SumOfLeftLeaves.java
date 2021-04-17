@@ -10,6 +10,7 @@ public class SumOfLeftLeaves {
               N           N  15             7
         */
 
+        SumOfLeftLeaves o = new SumOfLeftLeaves();
         TreeNode tree = new TreeNode(
                 3,
                 new TreeNode(
@@ -24,19 +25,19 @@ public class SumOfLeftLeaves {
                 )
         );
 
-        System.out.println(sumOfLeftLeaves(tree));
+        System.out.println(o.sumOfLeftLeaves(tree));
     }
 
-    public static int sumOfLeftLeaves(TreeNode root) {
+    public int sumOfLeftLeaves(TreeNode root) {
         int sum = 0;
         if (root == null) return sum;
-        if (root.left != null && isLeftLeaf(root.left))
+        if (root.left != null && isLeaf(root.left))
             sum += root.left.val;
         sum += sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
         return sum;
     }
 
-    public static boolean isLeftLeaf(TreeNode node) {
+    private boolean isLeaf(TreeNode node) {
         return node.left == null && node.right == null;
     }
 

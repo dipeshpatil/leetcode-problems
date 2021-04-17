@@ -12,6 +12,7 @@ public class InvertBinaryTree {
               [N, 9, N, 3, 15, 20, 7]
         */
 
+        InvertBinaryTree o = new InvertBinaryTree();
         TreeNode tree = new TreeNode(
                 3,
                 new TreeNode(
@@ -26,7 +27,7 @@ public class InvertBinaryTree {
                 )
         );
 
-        print(invertTree(tree));
+        o.print(o.invertTree(tree));
 
         /*
               After Inversion
@@ -39,7 +40,7 @@ public class InvertBinaryTree {
         */
     }
 
-    public static TreeNode invertTree(TreeNode root) {
+    public TreeNode invertTree(TreeNode root) {
         if (root == null)
             return null;
 
@@ -52,7 +53,7 @@ public class InvertBinaryTree {
         return root;
     }
 
-    public static void print(TreeNode node) {
+    private void print(TreeNode node) {
         if (node != null) {
             print(node.left);
             System.out.print(node.val + " ");

@@ -13,6 +13,7 @@ public class PathSum {
                  7           2        N          N          1
         */
 
+        PathSum o = new PathSum();
         TreeNode tree = new TreeNode(
                 5,
                 new TreeNode(
@@ -35,16 +36,16 @@ public class PathSum {
                 )
         );
 
-        System.out.println(hasPathSum(tree, 22));
+        System.out.println(o.hasPathSum(tree, 22));
     }
 
-    public static boolean hasPathSum(TreeNode root, int targetSum) {
+    public boolean hasPathSum(TreeNode root, int targetSum) {
         HashSet<Integer> set = new HashSet<>();
         buildPathSums(set, 0, root);
         return set.contains(targetSum);
     }
 
-    public static void buildPathSums(HashSet<Integer> set, int currentSum, TreeNode node) {
+    private void buildPathSums(HashSet<Integer> set, int currentSum, TreeNode node) {
         if (node == null) return;
 
         currentSum += node.val;

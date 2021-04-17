@@ -14,6 +14,7 @@ public class BinaryTreeInOrderTraversal {
               4           5   6             7
         */
 
+        BinaryTreeInOrderTraversal o = new BinaryTreeInOrderTraversal();
         TreeNode tree = new TreeNode(
                 1,
                 new TreeNode(
@@ -30,21 +31,21 @@ public class BinaryTreeInOrderTraversal {
 
         System.out.println(
                 Arrays.toString(
-                        inorderTraversal(tree)
+                        o.inorderTraversal(tree)
                                 .toArray()
                 )
         );
     }
 
-    public static List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         inOrderHelper(root, list);
         return list;
     }
 
-    private static void inOrderHelper(TreeNode node, List<Integer> list) {
-        if (node == null) return;
-
+    private void inOrderHelper(TreeNode node, List<Integer> list) {
+        if (node == null)
+            return;
         inOrderHelper(node.left, list);
         list.add(node.val);
         inOrderHelper(node.right, list);

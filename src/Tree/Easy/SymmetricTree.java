@@ -10,6 +10,7 @@ public class SymmetricTree {
               3           4   4             3
         */
 
+        SymmetricTree o = new SymmetricTree();
         TreeNode tree = new TreeNode(
                 1,
                 new TreeNode(
@@ -24,14 +25,14 @@ public class SymmetricTree {
                 )
         );
 
-        System.out.println(isSymmetric(tree));
+        System.out.println(o.isSymmetric(tree));
     }
 
-    public static boolean isSymmetric(TreeNode root) {
+    public boolean isSymmetric(TreeNode root) {
         return isSymmetricHelper(root, root);
     }
 
-    public static boolean isSymmetricHelper(TreeNode t1, TreeNode t2) {
+    private boolean isSymmetricHelper(TreeNode t1, TreeNode t2) {
         if (t1 == null && t2 == null) return true;
         if (t1 == null || t2 == null) return false;
         return t1.val == t2.val

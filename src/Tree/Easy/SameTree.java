@@ -11,6 +11,7 @@ public class SameTree {
                 2       3       2       3
         */
 
+        SameTree o = new SameTree();
         TreeNode p = new TreeNode(1, new TreeNode(2), new TreeNode(3));
         TreeNode q = new TreeNode(1, new TreeNode(2), new TreeNode(3));
 
@@ -25,8 +26,8 @@ public class SameTree {
         System.out.println(
                 Arrays.toString(
                         new boolean[]{
-                                isSameTree(p, q),
-                                isSameTree(r, s)
+                                o.isSameTree(p, q),
+                                o.isSameTree(r, s)
                         }
                 )
         );
@@ -34,13 +35,12 @@ public class SameTree {
         // [true, false]
     }
 
-    public static boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
-        if (p != null && q != null) {
+        if (p != null && q != null)
             return p.val == q.val
                     && isSameTree(p.left, q.left)
                     && isSameTree(p.right, q.right);
-        }
         return false;
     }
 

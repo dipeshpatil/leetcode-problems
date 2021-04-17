@@ -14,6 +14,7 @@ public class BinaryTreePreOrderTraversal {
               4           5   6             7
         */
 
+        BinaryTreePreOrderTraversal o = new BinaryTreePreOrderTraversal();
         TreeNode tree = new TreeNode(
                 1,
                 new TreeNode(
@@ -30,21 +31,21 @@ public class BinaryTreePreOrderTraversal {
 
         System.out.println(
                 Arrays.toString(
-                        preorderTraversal(tree)
+                        o.preorderTraversal(tree)
                                 .toArray()
                 )
         );
     }
 
-    public static List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         preOrderHelper(root, list);
         return list;
     }
 
-    private static void preOrderHelper(TreeNode node, List<Integer> list) {
-        if (node == null) return;
-
+    private void preOrderHelper(TreeNode node, List<Integer> list) {
+        if (node == null)
+            return;
         list.add(node.val);
         preOrderHelper(node.left, list);
         preOrderHelper(node.right, list);

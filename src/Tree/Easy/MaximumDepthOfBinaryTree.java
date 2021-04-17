@@ -10,6 +10,7 @@ public class MaximumDepthOfBinaryTree {
               N           N  15             7
         */
 
+        MaximumDepthOfBinaryTree o = new MaximumDepthOfBinaryTree();
         TreeNode tree = new TreeNode(
                 3,
                 new TreeNode(
@@ -24,15 +25,15 @@ public class MaximumDepthOfBinaryTree {
                 )
         );
 
-        System.out.println(maxDepth(tree));
+        System.out.println(o.maxDepth(tree));
     }
 
-    public static int maxDepth(TreeNode root) {
+    public int maxDepth(TreeNode root) {
         if (root == null) return 0;
         return 1 + height(root);
     }
 
-    public static int height(TreeNode root) {
+    private int height(TreeNode root) {
         if (root == null) return 0;
         else if (root.left == null && root.right == null) return 0;
         else return 1 + Math.max(height(root.left), height(root.right));

@@ -4,18 +4,19 @@ import Tree.TreeNode;
 
 public class ConvertSortedArrayIntoBST {
     public static void main(String[] args) {
+        ConvertSortedArrayIntoBST o = new ConvertSortedArrayIntoBST();
         int[] nums = new int[]{-10, -3, 0, 5, 9};
-        TreeNode tree = sortedArrayToBST(nums);
-        displayTreeIn(tree);
+        TreeNode tree = o.sortedArrayToBST(nums);
+        o.displayTreeIn(tree);
     }
 
-    public static TreeNode sortedArrayToBST(int[] nums) {
+    public TreeNode sortedArrayToBST(int[] nums) {
         if (nums.length == 0)
             return null;
         return buildUpBST(nums, 0, nums.length - 1);
     }
 
-    public static TreeNode buildUpBST(int[] nums, int left, int right) {
+    private TreeNode buildUpBST(int[] nums, int left, int right) {
         if (left > right)
             return null;
 
@@ -26,7 +27,7 @@ public class ConvertSortedArrayIntoBST {
         return node;
     }
 
-    public static void displayTreeIn(TreeNode node) {
+    private void displayTreeIn(TreeNode node) {
         if (node == null)
             return;
 

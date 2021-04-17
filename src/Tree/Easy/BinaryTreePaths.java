@@ -14,6 +14,7 @@ public class BinaryTreePaths {
              12           42  15             7
         */
 
+        BinaryTreePaths o = new BinaryTreePaths();
         TreeNode tree = new TreeNode(
                 3,
                 new TreeNode(
@@ -30,20 +31,20 @@ public class BinaryTreePaths {
 
         System.out.println(
                 Arrays.toString(
-                        binaryTreePaths(tree).toArray()
+                        o.binaryTreePaths(tree).toArray()
                 )
         );
 
         // [3->9->12, 3->9->42, 3->20->15, 3->20->7]
     }
 
-    public static List<String> binaryTreePaths(TreeNode root) {
+    public List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<>();
         pathHelper(root, new StringBuilder(), paths);
         return paths;
     }
 
-    public static void pathHelper(TreeNode node, StringBuilder path, List<String> result) {
+    private void pathHelper(TreeNode node, StringBuilder path, List<String> result) {
         if (node == null) return;
 
         if (path.length() == 0)
