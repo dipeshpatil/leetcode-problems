@@ -7,9 +7,15 @@ public class PlusOne {
         PlusOne o = new PlusOne();
         System.out.println(
                 Arrays.toString(
-                        o.plusOne(new int[]{9, 9, 9, 9})
+                        new String[]{
+                                Arrays.toString(o.plusOne(new int[]{9, 9, 9, 9})),
+                                Arrays.toString(o.plusOne(new int[]{1, 2, 3, 4})),
+                                Arrays.toString(o.plusOne(new int[]{4, 5, 7, 1}))
+                        }
                 )
         );
+
+        // [[1, 0, 0, 0, 0], [1, 2, 3, 5], [4, 5, 7, 2]]
     }
 
     public int[] plusOne(int[] digits) {
@@ -26,7 +32,6 @@ public class PlusOne {
         if (digits[0] == 0) {
             int[] newDigits = new int[size + 1];
             newDigits[0] = 1;
-
             for (int i = 0; i < digits.length; i++)
                 newDigits[i + 1] = digits[i];
             return newDigits;
@@ -34,10 +39,14 @@ public class PlusOne {
 
         return digits;
     }
+
+    public boolean isAlphabet(char x) {
+        return Character.isAlphabetic(x);
+    }
 }
 
 /*
     Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer.
     The digits are stored such that the most significant digit is at the head of the list, and each element in the array contains a single digit.
     You may assume the integer does not contain any leading zero, except the number 0 itself.
- */
+*/
