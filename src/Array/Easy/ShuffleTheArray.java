@@ -21,3 +21,7 @@ public class ShuffleTheArray {
         return newNums;
     }
 }
+
+/*
+    https://leetcode.com/problems/shuffle-the-array/
+*/

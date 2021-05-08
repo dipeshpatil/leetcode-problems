@@ -40,8 +40,8 @@ public class SumOfLeftLeaves {
     private boolean isLeaf(TreeNode node) {
         return node.left == null && node.right == null;
     }
+}
 
 /*
-    Find the sum of all left leaves in a given binary tree.
+    https://leetcode.com/problems/sum-of-left-leaves/
 */
-}

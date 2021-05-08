@@ -38,8 +38,8 @@ public class SpiralMatrixII {
         if (layers > 0)
             matrixHelper(matrix, left + 1, right - 1, top + 1, bottom - 1, --layers, track);
     }
+}
 
 /*
-    Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
+    https://leetcode.com/problems/spiral-matrix-ii/
 */
-}

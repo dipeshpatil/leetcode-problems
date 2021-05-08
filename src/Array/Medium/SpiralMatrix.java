@@ -48,8 +48,8 @@ public class SpiralMatrix {
         if (layers > 0)
             spiralOrderHelper(matrix, left + 1, right - 1, top + 1, bottom - 1, --layers, list);
     }
+}
 
 /*
-    Given an m x n matrix, return all elements of the matrix in spiral order.
+    https://leetcode.com/problems/spiral-matrix/
 */
-}

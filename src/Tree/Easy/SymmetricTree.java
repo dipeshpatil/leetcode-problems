@@ -39,8 +39,8 @@ public class SymmetricTree {
                 && isSymmetricHelper(t1.left, t2.right)
                 && isSymmetricHelper(t1.right, t2.left);
     }
+}
 
 /*
-    Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+    https://leetcode.com/problems/symmetric-tree/
 */
-}
