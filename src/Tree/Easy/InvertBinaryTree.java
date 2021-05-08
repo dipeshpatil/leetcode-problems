@@ -60,8 +60,8 @@ public class InvertBinaryTree {
             print(node.right);
         }
     }
+}
 
 /*
-    Given the root of a binary tree, invert the tree, and return its root.
+    https://leetcode.com/problems/invert-binary-tree/
 */
-}

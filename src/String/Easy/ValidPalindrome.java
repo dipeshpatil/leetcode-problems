@@ -41,8 +41,8 @@ public class ValidPalindrome {
                 && !Character.isDigit(x)
                 || Character.isSpaceChar(x);
     }
+}
 
 /*
-    Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+    https://leetcode.com/problems/valid-palindrome/
 */
-}

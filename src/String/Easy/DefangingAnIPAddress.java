@@ -22,3 +22,7 @@ public class DefangingAnIPAddress {
         return address.replace(".", "[.]");
     }
 }
+
+/*
+    https://leetcode.com/problems/defanging-an-ip-address/
+*/

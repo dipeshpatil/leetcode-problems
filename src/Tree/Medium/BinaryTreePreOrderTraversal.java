@@ -50,8 +50,8 @@ public class BinaryTreePreOrderTraversal {
         preOrderHelper(node.left, list);
         preOrderHelper(node.right, list);
     }
+}
 
 /*
-    Given the root of a binary tree, return the preorder traversal of its nodes' values.
+    https://leetcode.com/problems/binary-tree-preorder-traversal/
 */
-}

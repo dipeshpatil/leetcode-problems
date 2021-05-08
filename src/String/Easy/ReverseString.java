@@ -25,8 +25,8 @@ public class ReverseString {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+}
 
 /*
-    Write a function that reverses a string. The input string is given as an array of characters s.
+    https://leetcode.com/problems/reverse-string/
 */
-}

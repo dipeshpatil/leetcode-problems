@@ -50,8 +50,8 @@ public class BinaryTreeInOrderTraversal {
         list.add(node.val);
         inOrderHelper(node.right, list);
     }
+}
 
 /*
-    Given the root of a binary tree, return the inorder traversal of its nodes' values.
+    https://leetcode.com/problems/binary-tree-inorder-traversal/
 */
-}

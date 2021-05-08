@@ -61,9 +61,8 @@ public class BinaryTreePaths {
         if (node.left == null && node.right == null)
             result.add(path.toString());
     }
+}
 
 /*
-    Given the root of a binary tree, return all root-to-leaf paths in any order.
-    A leaf is a node with no children.
+    https://leetcode.com/problems/binary-tree-paths/
 */
-}
