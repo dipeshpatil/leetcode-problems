@@ -52,6 +52,4 @@ public class BinaryTreePreOrderTraversal {
     }
 }
 
-/*
-    https://leetcode.com/problems/binary-tree-preorder-traversal/
-*/
+// https://leetcode.com/problems/binary-tree-preorder-traversal/

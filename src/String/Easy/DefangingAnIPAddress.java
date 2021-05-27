@@ -23,6 +23,4 @@ public class DefangingAnIPAddress {
     }
 }
 
-/*
-    https://leetcode.com/problems/defanging-an-ip-address/
-*/
+// https://leetcode.com/problems/defanging-an-ip-address/

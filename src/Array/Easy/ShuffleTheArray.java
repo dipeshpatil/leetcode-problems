@@ -22,6 +22,4 @@ public class ShuffleTheArray {
     }
 }
 
-/*
-    https://leetcode.com/problems/shuffle-the-array/
-*/
+// https://leetcode.com/problems/shuffle-the-array/

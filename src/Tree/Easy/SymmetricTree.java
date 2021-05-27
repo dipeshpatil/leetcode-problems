@@ -41,6 +41,4 @@ public class SymmetricTree {
     }
 }
 
-/*
-    https://leetcode.com/problems/symmetric-tree/
-*/
+// https://leetcode.com/problems/symmetric-tree/

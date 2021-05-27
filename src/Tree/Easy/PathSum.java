@@ -61,6 +61,4 @@ public class PathSum {
     }
 }
 
-/*
-    https://leetcode.com/problems/path-sum/
-*/
+// https://leetcode.com/problems/path-sum/
