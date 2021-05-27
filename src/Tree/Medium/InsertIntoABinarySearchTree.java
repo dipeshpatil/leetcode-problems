@@ -50,6 +50,4 @@ public class InsertIntoABinarySearchTree {
     }
 }
 
-/*
-    https://leetcode.com/problems/insert-into-a-binary-search-tree/
-*/
+// https://leetcode.com/problems/insert-into-a-binary-search-tree/
