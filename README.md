@@ -1,6 +1,6 @@
 ## Leetcode Problem Solving Java
  ```
- ├───Array
+├───Array
 │   ├───Easy
 │   │       KidsWithTheGreatestNumberOfCandies.java
 │   │       NumberOfGoodPairs.java
@@ -51,5 +51,4 @@
             BinaryTreePreOrderTraversal.java
             FlattenBinaryTreeToLinkedList.java
             InsertIntoABinarySearchTree.java
-
   ```
