@@ -3,6 +3,7 @@
 ├───Array
 │   ├───Easy
 │   │       KidsWithTheGreatestNumberOfCandies.java
+│   │       MoveZeroes.java
 │   │       NumberOfGoodPairs.java
 │   │       PlusOne.java
 │   │       RunningSumOf1DArray.java
@@ -13,6 +14,7 @@
 │           ContainerWithMostWater.java
 │           FindFirstAndLastPositionOfElementInSortedArray.java
 │           RotateImage.java
+│           SortColors.java
 │           SpiralMatrix.java
 │           SpiralMatrixII.java
 │           SpiralMatrixIII.java
