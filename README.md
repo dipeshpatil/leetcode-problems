@@ -1,7 +1,8 @@
 ## LeetCode Problem Solving Java
- ```
+```
 ├───Array
 │   ├───Easy
+│   │       HowManyNumbersAreSmallerThanTheCurrentNumber.java
 │   │       KidsWithTheGreatestNumberOfCandies.java
 │   │       MoveZeroes.java
 │   │       NumberOfGoodPairs.java
@@ -14,6 +15,7 @@
 │           ContainerWithMostWater.java
 │           FindFirstAndLastPositionOfElementInSortedArray.java
 │           RotateImage.java
+│           SearchInA2DMatrix.java
 │           SortColors.java
 │           SpiralMatrix.java
 │           SpiralMatrixII.java
@@ -58,4 +60,4 @@
             BinaryTreeZigzagLevelOrderTraversal.java
             FlattenBinaryTreeToLinkedList.java
             InsertIntoABinarySearchTree.java
-  ```
+```
