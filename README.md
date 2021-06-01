@@ -1,4 +1,4 @@
-## Leetcode Problem Solving Java
+## LeetCode Problem Solving Java
  ```
 ├───Array
 │   ├───Easy
