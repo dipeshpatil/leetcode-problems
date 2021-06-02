@@ -1,5 +1,5 @@
 ### Note
-This `README.md` file located in `src` directory is generated via `ReadmeGenerator.java` Class.
+The `README.md` file located in `src` directory is generated via `ReadmeGenerator.java` Class.
 
 If you want to maintain an index of your folder structure, Then run this `ReadmeGenerator.java` File before committing your changes to repository.
 
