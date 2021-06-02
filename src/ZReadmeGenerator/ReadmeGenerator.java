@@ -20,7 +20,7 @@ public class ReadmeGenerator {
 
     public static void main(String[] args) {
         FileReader reader = new FileReader();
-        StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java").append("\n\n");
+        StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java").append("\n\n---\n");
         List<String> foldersInRootDir = reader.listFolders(new File(PARENT_DIR));
 
         for (String categoryFolder : foldersInRootDir) {
@@ -38,7 +38,7 @@ public class ReadmeGenerator {
             }
         }
 
-        String noteForGeneratingReadme = "### Note\n" +
+        String noteForGeneratingReadme = "---\n### Note\n" +
                 "This `README.md` file is generated via `ReadmeGenerator.java` Class.\n\n" +
                 "If you want to maintain an index of your folder structure, Then run the `ReadmeGenerator.java` File located in `src/ZReadmeGenerator` before committing your changes to repository.\n" +
                 "\n" +

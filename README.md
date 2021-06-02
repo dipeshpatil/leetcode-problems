@@ -1,5 +1,6 @@
 ## LeetCode Problem Solving Java
 
+---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy)
 	 - [HowManyNumbersAreSmallerThanTheCurrentNumber.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/HowManyNumbersAreSmallerThanTheCurrentNumber.java)
@@ -60,6 +61,7 @@
 	 - [FlattenBinaryTreeToLinkedList.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/FlattenBinaryTreeToLinkedList.java)
 	 - [InsertIntoABinarySearchTree.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/InsertIntoABinarySearchTree.java)
 
+---
 ### Note
 This `README.md` file is generated via `ReadmeGenerator.java` Class.
 
