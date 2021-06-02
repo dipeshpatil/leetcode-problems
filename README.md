@@ -1,4 +1,5 @@
 ## LeetCode Problem Solving Java
+| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)

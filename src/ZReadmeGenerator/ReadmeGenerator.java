@@ -20,8 +20,19 @@ public class ReadmeGenerator {
 
     public static void main(String[] args) {
         final FileReader reader = new FileReader();
-        final StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java").append("\n\n---\n");
-        final  List<String> foldersInRootDir = reader.listFolders(new File(PARENT_DIR));
+        final StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java\n");
+        final List<String> foldersInRootDir = reader.listFolders(new File(PARENT_DIR));
+
+        // BreadCrumbs
+        StringBuilder breadCrumbs = new StringBuilder("|");
+        for (String category : foldersInRootDir) {
+            if (category.equalsIgnoreCase("ZReadmeGenerator")) continue;
+            breadCrumbs.append(" ");
+            breadCrumbs.append("[" + category + "]").append("(" + GITHUB_REPO_URL + "/" + "#" + category.toLowerCase() + ") ");
+            breadCrumbs.append("|");
+        }
+
+        readme.append(breadCrumbs).append("\n\n---\n");
 
         final String NOTE_FOR_GENERATING_README = "---\n### Note\n" +
                 "This `README.md` file is generated via `ReadmeGenerator.java` Class.\n\n" +
