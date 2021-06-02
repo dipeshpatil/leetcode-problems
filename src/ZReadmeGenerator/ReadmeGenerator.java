@@ -19,11 +19,11 @@ public class ReadmeGenerator {
     private static final String GITHUB_REPO_BLOB_URL = GITHUB_REPO_URL + "/blob/" + GITHUB_BRANCH_NAME + "/" + PARENT_DIR + "/";
 
     public static void main(String[] args) {
-        FileReader reader = new FileReader();
-        StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java").append("\n\n---\n");
-        List<String> foldersInRootDir = reader.listFolders(new File(PARENT_DIR));
+        final FileReader reader = new FileReader();
+        final StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java").append("\n\n---\n");
+        final  List<String> foldersInRootDir = reader.listFolders(new File(PARENT_DIR));
 
-        String noteForGeneratingReadme = "---\n### Note\n" +
+        final String NOTE_FOR_GENERATING_README = "---\n### Note\n" +
                 "This `README.md` file is generated via `ReadmeGenerator.java` Class.\n\n" +
                 "If you want to maintain an index of your folder structure, Then run the `ReadmeGenerator.java` File located in `src/ZReadmeGenerator` before committing your changes to repository.\n" +
                 "\n" +
@@ -50,7 +50,7 @@ public class ReadmeGenerator {
             }
         }
 
-        readme.append(noteForGeneratingReadme);
+        readme.append(NOTE_FOR_GENERATING_README);
 
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(README_FILE));
