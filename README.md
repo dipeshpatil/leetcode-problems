@@ -23,6 +23,7 @@
 │
 ├───String
 │   ├───Easy
+│   │       CheckIfTheSentenceIsPangram.java
 │   │       DefangingAnIPAddress.java
 │   │       ReverseString.java
 │   │       ValidPalindrome.java
