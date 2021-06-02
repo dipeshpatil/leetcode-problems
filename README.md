@@ -35,6 +35,7 @@
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium)
 	 - [GroupAnagrams.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/GroupAnagrams.java)
+	 - [ZigzagConversion.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/ZigzagConversion.java)
 
 ### [Tree](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy)
