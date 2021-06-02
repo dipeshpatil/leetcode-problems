@@ -1,64 +1,56 @@
 ## LeetCode Problem Solving Java
-```
-├───Array
-│   ├───Easy
-│   │       HowManyNumbersAreSmallerThanTheCurrentNumber.java
-│   │       KidsWithTheGreatestNumberOfCandies.java
-│   │       MoveZeroes.java
-│   │       NumberOfGoodPairs.java
-│   │       PlusOne.java
-│   │       RunningSumOf1DArray.java
-│   │       ShuffleTheArray.java
-│   │       TwoSum.java
-│   │
-│   └───Medium
-│           ContainerWithMostWater.java
-│           FindFirstAndLastPositionOfElementInSortedArray.java
-│           RotateImage.java
-│           SearchInA2DMatrix.java
-│           SortColors.java
-│           SpiralMatrix.java
-│           SpiralMatrixII.java
-│           SpiralMatrixIII.java
-│
-├───String
-│   ├───Easy
-│   │       CheckIfTheSentenceIsPangram.java
-│   │       DefangingAnIPAddress.java
-│   │       ReverseString.java
-│   │       ValidPalindrome.java
-│   │       ValidParenthesis.java
-│   │
-│   ├───Hard
-│   │       ValidNumber.java
-│   │
-│   └───Medium
-│           GroupAnagrams.java
-│
-└───Tree
-    │   TreeNode.java
-    │
-    ├───Easy
-    │       BinaryTreePaths.java
-    │       ConvertSortedArrayIntoBST.java
-    │       InvertBinaryTree.java
-    │       MaximumDepthOfBinaryTree.java
-    │       MinimumDepthOfBinaryTree.java
-    │       PathSum.java
-    │       SameTree.java
-    │       SearchInABinarySearchTree.java
-    │       SumOfLeftLeaves.java
-    │       SymmetricTree.java
-    │
-    ├───Hard
-    │       BinaryTreeCameras.java
-    │
-    └───Medium
-            BinaryTreeInOrderTraversal.java
-            BinaryTreeLevelOrderTraversal.java
-            BinaryTreePostOrderTraversal.java
-            BinaryTreePreOrderTraversal.java
-            BinaryTreeZigzagLevelOrderTraversal.java
-            FlattenBinaryTreeToLinkedList.java
-            InsertIntoABinarySearchTree.java
-```
+## [Arrays](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
+- [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy)
+    - [`HowManyNumbersAreSmallerThanTheCurrentNumber.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/HowManyNumbersAreSmallerThanTheCurrentNumber.java)
+    - [`KidsWithTheGreatestNumberOfCandies.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/KidsWithTheGreatestNumberOfCandies.java)
+    - [`MoveZeroes.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/MoveZeroes.java)
+    - [`NumberOfGoodPairs.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/NumberOfGoodPairs.java)
+    - [`PlusOne.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/PlusOne.java)
+    - [`RunningSumOf1DArray.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/RunningSumOf1DArray.java)
+    - [`ShuffleTheArray.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/ShuffleTheArray.java)
+    - [`TwoSum.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/TwoSum.java)
+- [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium)
+  - [`ContainerWithMostWater.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/ContainerWithMostWater.java)
+  - [`FindFirstAndLastPositionOfElementInSortedArray.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/FindFirstAndLastPositionOfElementInSortedArray.java)
+  - [`RotateImage.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/RotateImage.java)
+  - [`SearchInA2DMatrix.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SearchInA2DMatrix.java)
+  - [`SortColors.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SortColors.java)
+  - [`SpiralMatrix.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrix.java)
+  - [`SpiralMatrixII.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixII.java)
+  - [`SpiralMatrixIII.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixIII.java)
+
+## [String](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String)
+- [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy)
+  - [`CheckIfTheSentenceIsPangram.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfTheSentenceIsPangram.java)
+  - [`DefangingAnIPAddress.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/DefangingAnIPAddress.java)
+  - [`ReverseString.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ReverseString.java)
+  - [`ValidPalindrome.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidPalindrome.java)
+  - [`ValidParenthesis.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidParenthesis.java)
+- [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium)
+  - [`GroupAnagrams.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/GroupAnagrams.java)
+- [Hard](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Hard)
+  - [`ValidNumber.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Hard/ValidNumber.java)
+  
+## [Tree](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree)
+- [`TreeNode.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/TreeNode.java)
+- [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy)
+  - [`BinaryTreePaths.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/BinaryTreePaths.java)
+  - [`ConvertSortedArrayIntoBST.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/ConvertSortedArrayIntoBST.java)
+  - [`InvertBinaryTree.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/InvertBinaryTree.java)
+  - [`MaximumDepthOfBinaryTree.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/MaximumDepthOfBinaryTree.java)
+  - [`MinimumDepthOfBinaryTree.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/MinimumDepthOfBinaryTree.java)
+  - [`PathSum.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/PathSum.java)
+  - [`SameTree.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/SameTree.java)
+  - [`SearchInABinarySearchTree.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/SearchInABinarySearchTree.java)
+  - [`SumOfLeftLeaves.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/SumOfLeftLeaves.java)
+  - [`SymmetricTree.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/SymmetricTree.java)
+- [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium)
+  - [`BinaryTreeInOrderTraversal.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreeInOrderTraversal.java)
+  - [`BinaryTreeLevelOrderTraversal.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreeLevelOrderTraversal.java)
+  - [`BinaryTreePostOrderTraversal.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreePostOrderTraversal.java)
+  - [`BinaryTreePreOrderTraversal.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreePreOrderTraversal.java)
+  - [`BinaryTreeZigzagLevelOrderTraversal.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreeZigzagLevelOrderTraversal.java)
+  - [`FlattenBinaryTreeToLinkedList.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/FlattenBinaryTreeToLinkedList.java)
+  - [`InsertIntoABinarySearchTree.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/InsertIntoABinarySearchTree.java)
+- [Hard](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Hard)
+  - [`BinaryTreeCameras.java`](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Hard/BinaryTreeCameras.java)
