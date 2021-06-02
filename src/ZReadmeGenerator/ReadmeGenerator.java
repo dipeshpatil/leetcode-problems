@@ -23,6 +23,18 @@ public class ReadmeGenerator {
         StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java").append("\n\n---\n");
         List<String> foldersInRootDir = reader.listFolders(new File(PARENT_DIR));
 
+        String noteForGeneratingReadme = "---\n### Note\n" +
+                "This `README.md` file is generated via `ReadmeGenerator.java` Class.\n\n" +
+                "If you want to maintain an index of your folder structure, Then run the `ReadmeGenerator.java` File located in `src/ZReadmeGenerator` before committing your changes to repository.\n" +
+                "\n" +
+                "Make sure to change the REMOTE CONFIG first in `ReadmeGenerator.java`\n" +
+                "```java\n" +
+                "// REMOTE CONFIG\n" +
+                "private static final String GITHUB_USERNAME = \"<GITHUB_USERNAME>\";\n" +
+                "private static final String GITHUB_REPO_NAME = \"<GITHUB_REPO_NAME>\";\n" +
+                "private static final String GITHUB_BRANCH_NAME = \"<GITHUB_BRANCH_NAME>\";\n" +
+                "```\n";
+
         for (String categoryFolder : foldersInRootDir) {
             if (categoryFolder.equalsIgnoreCase("ZReadmeGenerator")) continue;
             readme.append("### [" + categoryFolder + "](" + GITHUB_REPO_BLOB_URL + categoryFolder + ")\n");
@@ -37,18 +49,6 @@ public class ReadmeGenerator {
                 readme.append("\n");
             }
         }
-
-        String noteForGeneratingReadme = "---\n### Note\n" +
-                "This `README.md` file is generated via `ReadmeGenerator.java` Class.\n\n" +
-                "If you want to maintain an index of your folder structure, Then run the `ReadmeGenerator.java` File located in `src/ZReadmeGenerator` before committing your changes to repository.\n" +
-                "\n" +
-                "Make sure to change the REMOTE CONFIG first in `ReadmeGenerator.java`\n" +
-                "```java\n" +
-                "// REMOTE CONFIG\n" +
-                "private static final String GITHUB_USERNAME = \"<GITHUB_USERNAME>\";\n" +
-                "private static final String GITHUB_REPO_NAME = \"<GITHUB_REPO_NAME>\";\n" +
-                "private static final String GITHUB_BRANCH_NAME = \"<GITHUB_BRANCH_NAME>\";\n" +
-                "```\n";
 
         readme.append(noteForGeneratingReadme);
 
