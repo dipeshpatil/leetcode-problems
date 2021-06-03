@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.Objects;
 
 public class FileReader {
-    public List<String> listFilesForFolder(final File folder) {
+    public List<String> listFilesForFolder(final String folder) {
         List<String> files = new ArrayList<>();
         listFilesForFolderUtil(folder, files);
         return files;
     }
 
-    public List<String> listFolders(final File folder) {
+    public List<String> listFolders(final String folder) {
         List<String> folders = new ArrayList<>();
-        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
+        for (final File fileEntry : Objects.requireNonNull(new File(folder).listFiles())) {
             if (fileEntry.isDirectory()) {
                 folders.add(fileEntry.getName());
             }
@@ -22,10 +22,10 @@ public class FileReader {
         return folders;
     }
 
-    private void listFilesForFolderUtil(final File folder, List<String> files) {
-        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
+    private void listFilesForFolderUtil(final String folder, List<String> files) {
+        for (final File fileEntry : Objects.requireNonNull(new File(folder).listFiles())) {
             if (fileEntry.isDirectory()) {
-                listFilesForFolderUtil(fileEntry, files);
+                listFilesForFolderUtil(fileEntry.getName(), files);
             } else {
                 files.add(fileEntry.getName());
             }

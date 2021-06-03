@@ -21,7 +21,7 @@ public class ReadmeGenerator {
     public static void main(String[] args) {
         final FileReader reader = new FileReader();
         final StringBuilder readme = new StringBuilder("## LeetCode Problem Solving Java\n");
-        final List<String> foldersInRootDir = reader.listFolders(new File(PARENT_DIR));
+        final List<String> foldersInRootDir = reader.listFolders(PARENT_DIR);
 
         // BreadCrumbs
         StringBuilder breadCrumbs = new StringBuilder("|");
@@ -50,11 +50,11 @@ public class ReadmeGenerator {
             if (categoryFolder.equalsIgnoreCase("ZReadmeGenerator")) continue;
             readme.append("### [" + categoryFolder + "](" + GITHUB_REPO_BLOB_URL + categoryFolder + ")\n");
             String innerFolder = PARENT_DIR + "/" + categoryFolder;
-            List<String> folderNamesInInnerFolderOfRootDir = reader.listFolders(new File(innerFolder));
+            List<String> folderNamesInInnerFolderOfRootDir = reader.listFolders(innerFolder);
             for (String folderName : folderNamesInInnerFolderOfRootDir) {
                 readme.append("- [" + folderName + "](" + GITHUB_REPO_BLOB_URL + categoryFolder + "/" + folderName + ")\n");
                 String finalFolderName = innerFolder + "/" + folderName;
-                List<String> actualFilesInFolder = reader.listFilesForFolder(new File(finalFolderName));
+                List<String> actualFilesInFolder = reader.listFilesForFolder(finalFolderName);
                 for (String finalFileName : actualFilesInFolder)
                     readme.append("\t - [" + finalFileName + "](" + GITHUB_REPO_BLOB_URL + categoryFolder + "/" + folderName + "/" + finalFileName + ")\n");
                 readme.append("\n");
