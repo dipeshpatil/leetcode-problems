@@ -25,9 +25,13 @@
 
 ### [String](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy)
+	 - [AddBinary.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/AddBinary.java)
 	 - [CheckIfTheSentenceIsPangram.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfTheSentenceIsPangram.java)
+	 - [CheckIfTwoStringArraysAreEquivalent.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfTwoStringArraysAreEquivalent.java)
 	 - [DefangingAnIPAddress.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/DefangingAnIPAddress.java)
+	 - [GoalParserInterpretation.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/GoalParserInterpretation.java)
 	 - [ReverseString.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ReverseString.java)
+	 - [SortingTheSentence.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/SortingTheSentence.java)
 	 - [ValidPalindrome.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidPalindrome.java)
 	 - [ValidParenthesis.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidParenthesis.java)
 
