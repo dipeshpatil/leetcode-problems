@@ -5,6 +5,8 @@
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy)
 	 - [CreateTargetArrayInTheGivenOrder.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/CreateTargetArrayInTheGivenOrder.java)
+	 - [FindTheHighestAltitude.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FindTheHighestAltitude.java)
+	 - [FlippingAnImage.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FlippingAnImage.java)
 	 - [HowManyNumbersAreSmallerThanTheCurrentNumber.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/HowManyNumbersAreSmallerThanTheCurrentNumber.java)
 	 - [KidsWithTheGreatestNumberOfCandies.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/KidsWithTheGreatestNumberOfCandies.java)
 	 - [MeanOfArrayAfterRemovingSomeElements.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/MeanOfArrayAfterRemovingSomeElements.java)
@@ -14,6 +16,7 @@
 	 - [RunningSumOf1DArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/RunningSumOf1DArray.java)
 	 - [ShuffleTheArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/ShuffleTheArray.java)
 	 - [TwoSum.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/TwoSum.java)
+	 - [XOROperationInAnArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/XOROperationInAnArray.java)
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium)
 	 - [ContainerWithMostWater.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/ContainerWithMostWater.java)
