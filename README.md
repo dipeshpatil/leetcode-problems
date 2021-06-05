@@ -10,6 +10,7 @@
 	 - [HowManyNumbersAreSmallerThanTheCurrentNumber.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/HowManyNumbersAreSmallerThanTheCurrentNumber.java)
 	 - [KidsWithTheGreatestNumberOfCandies.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/KidsWithTheGreatestNumberOfCandies.java)
 	 - [MeanOfArrayAfterRemovingSomeElements.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/MeanOfArrayAfterRemovingSomeElements.java)
+	 - [MinimumTimeVisitingAllPoints.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/MinimumTimeVisitingAllPoints.java)
 	 - [MoveZeroes.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/MoveZeroes.java)
 	 - [NumberOfGoodPairs.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/NumberOfGoodPairs.java)
 	 - [PlusOne.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/PlusOne.java)
