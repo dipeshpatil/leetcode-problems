@@ -1,6 +1,5 @@
 package Array.Easy;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MeanOfArrayAfterRemovingSomeElements {
