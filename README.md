@@ -34,6 +34,7 @@
 	 - [AddBinary.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/AddBinary.java)
 	 - [CheckIfTheSentenceIsPangram.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfTheSentenceIsPangram.java)
 	 - [CheckIfTwoStringArraysAreEquivalent.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfTwoStringArraysAreEquivalent.java)
+	 - [CheckIfWordEqualsSummationOfTwoWords.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfWordEqualsSummationOfTwoWords.java)
 	 - [DefangingAnIPAddress.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/DefangingAnIPAddress.java)
 	 - [GoalParserInterpretation.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/GoalParserInterpretation.java)
 	 - [ReverseString.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ReverseString.java)
@@ -46,6 +47,7 @@
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium)
 	 - [GroupAnagrams.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/GroupAnagrams.java)
+	 - [StringToIntegerAtoi.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/StringToIntegerAtoi.java)
 	 - [ZigzagConversion.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/ZigzagConversion.java)
 
 ### [Tree](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree)
