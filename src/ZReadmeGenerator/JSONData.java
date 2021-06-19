@@ -35,7 +35,7 @@ public class JSONData {
         final FileReader reader = new FileReader();
         final List<String> categoryFolders = reader.listFolders(PARENT_DIR);
 
-        final StringBuilder data = new StringBuilder("[");
+        final StringBuilder data = new StringBuilder("[{");
 
         for (int i = 0; i < categoryFolders.size(); i++) {
             String categoryFolder = categoryFolders.get(i);
@@ -65,7 +65,7 @@ public class JSONData {
             }
         }
 
-        data.append("]");
+        data.append("}]");
 
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(JSON_FILE));
