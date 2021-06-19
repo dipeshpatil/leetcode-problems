@@ -10,12 +10,21 @@ import java.util.List;
 /*
 [
     {
-        Array: {
-            Easy: ['xyz.java'],
-            Medium: [''],
-            Hard: []
+        category: Array,
+        levels: {
+            easy: ['xyz.java'],
+            medium: [''],
+            hard: []
         }
-    }
+    },
+    {
+        category: String,
+        levels: {
+            easy: ['xyz.java'],
+            medium: [''],
+            hard: []
+        }
+    },
 ]
  */
 
@@ -35,45 +44,49 @@ public class JSONData {
         final FileReader reader = new FileReader();
         final List<String> categoryFolders = reader.listFolders(PARENT_DIR);
 
-        final StringBuilder data = new StringBuilder("[{");
+        final StringBuilder data = new StringBuilder("[");
 
         for (int i = 0; i < categoryFolders.size(); i++) {
-            String categoryFolder = categoryFolders.get(i);
-            if (!categoryFolder.equalsIgnoreCase("ZReadmeGenerator")) {
-                data.append("\"").append(categoryFolder).append("\"").append(":").append(" {");
-                String innerFolder = PARENT_DIR + "/" + categoryFolder;
-                List<String> listFolders = reader.listFolders(innerFolder);
-                for (int j = 0; j < listFolders.size(); j++) {
-                    String level = listFolders.get(j);
-                    data.append("\"").append(level).append("\"").append(": ");
-                    String finalFolder = innerFolder + "/" + level;
-                    List<String> files = reader.listFilesForFolder(finalFolder);
+            if (!categoryFolders.get(i).equalsIgnoreCase("ZReadmeGenerator")) {
+                data.append("{");
+                data.append("\"" + "category" + "\": \"" + categoryFolders.get(i) + "\",");
+                data.append("\"" + "levels" + "\": {");
+                String innerFolder = PARENT_DIR + "/" + categoryFolders.get(i);
+                List<String> levels = reader.listFolders(innerFolder);
 
-                    List<String> finalFilesWithQuotes = new ArrayList<>();
-                    for (String file : files)
-                        finalFilesWithQuotes.add("\"" + file + "\"");
+                for (int j = 0; j < levels.size(); j++) {
+                    String level = levels.get(j);
 
-                    if (j == listFolders.size() - 1)
-                        data.append(Arrays.toString(finalFilesWithQuotes.toArray(new String[0])));
+                    String finalFolderName = innerFolder + "/" + level;
+                    List<String> files = new ArrayList<>();
+
+                    for (String file : reader.listFilesForFolder(finalFolderName))
+                        files.add("\"" + file + "\"");
+
+                    if (j == levels.size() - 1)
+                        data.append("\"" + level.toLowerCase() + "\": " + Arrays.toString(files.toArray(new String[0])));
                     else
-                        data.append(Arrays.toString(finalFilesWithQuotes.toArray(new String[0]))).append(',');
+                        data.append("\"" + level.toLowerCase() + "\": " + Arrays.toString(files.toArray(new String[0])) + ",");
                 }
+
+                data.append("}");
+
                 if (i == categoryFolders.size() - 2)
                     data.append("}");
                 else
                     data.append("},");
             }
         }
+        data.append("]");
+        System.out.println(data);
 
-        data.append("}]");
-
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(JSON_FILE));
-            writer.write(data.toString());
-            writer.close();
-            System.out.println("data.json Generated Successfully!");
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
+//        try {
+//            BufferedWriter writer = new BufferedWriter(new FileWriter(JSON_FILE));
+//            writer.write(data.toString());
+//            writer.close();
+//            System.out.println("data.json Generated Successfully!");
+//        } catch (IOException e) {
+//            System.out.println(e.getMessage());
+//        }
     }
 }
