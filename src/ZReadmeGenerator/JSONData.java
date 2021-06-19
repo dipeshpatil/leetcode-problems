@@ -58,7 +58,7 @@ public class JSONData {
                     else
                         data.append(Arrays.toString(finalFilesWithQuotes.toArray(new String[0]))).append(',');
                 }
-                if (i == categoryFolders.size() - 1)
+                if (i == categoryFolders.size() - 2)
                     data.append("}");
                 else
                     data.append("},");
