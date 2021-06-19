@@ -49,7 +49,7 @@ public class JSONData {
         for (int i = 0; i < categoryFolders.size(); i++) {
             if (!categoryFolders.get(i).equalsIgnoreCase("ZReadmeGenerator")) {
                 data.append("{");
-                data.append("\"" + "category" + "\": \"" + categoryFolders.get(i) + "\",");
+                data.append("\"" + "category" + "\": \"").append(categoryFolders.get(i)).append("\",");
                 data.append("\"" + "levels" + "\": {");
                 String innerFolder = PARENT_DIR + "/" + categoryFolders.get(i);
                 List<String> levels = reader.listFolders(innerFolder);
@@ -64,9 +64,9 @@ public class JSONData {
                         files.add("\"" + file + "\"");
 
                     if (j == levels.size() - 1)
-                        data.append("\"" + level.toLowerCase() + "\": " + Arrays.toString(files.toArray(new String[0])));
+                        data.append("\"").append(level.toLowerCase()).append("\": ").append(Arrays.toString(files.toArray(new String[0])));
                     else
-                        data.append("\"" + level.toLowerCase() + "\": " + Arrays.toString(files.toArray(new String[0])) + ",");
+                        data.append("\"").append(level.toLowerCase()).append("\": ").append(Arrays.toString(files.toArray(new String[0]))).append(",");
                 }
 
                 data.append("}");
@@ -77,16 +77,16 @@ public class JSONData {
                     data.append("},");
             }
         }
-        data.append("]");
-        System.out.println(data);
 
-//        try {
-//            BufferedWriter writer = new BufferedWriter(new FileWriter(JSON_FILE));
-//            writer.write(data.toString());
-//            writer.close();
-//            System.out.println("data.json Generated Successfully!");
-//        } catch (IOException e) {
-//            System.out.println(e.getMessage());
-//        }
+        data.append("]");
+
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(JSON_FILE));
+            writer.write(data.toString());
+            writer.close();
+            System.out.println("data.json Generated Successfully!");
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
