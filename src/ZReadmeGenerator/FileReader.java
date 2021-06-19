@@ -31,4 +31,9 @@ public class FileReader {
             }
         }
     }
+
+    public void display(List<String> items) {
+        for (String item : items)
+            System.out.println(item);
+    }
 }
