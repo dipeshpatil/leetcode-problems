@@ -4,6 +4,7 @@
 ---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy)
+	 - [ArrayPartitionI.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/ArrayPartitionI.java)
 	 - [CreateTargetArrayInTheGivenOrder.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/CreateTargetArrayInTheGivenOrder.java)
 	 - [FindTheHighestAltitude.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FindTheHighestAltitude.java)
 	 - [FlippingAnImage.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FlippingAnImage.java)
