@@ -7,7 +7,6 @@
 	 - [CreateTargetArrayInTheGivenOrder.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/CreateTargetArrayInTheGivenOrder.java)
 	 - [FindTheHighestAltitude.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FindTheHighestAltitude.java)
 	 - [FlippingAnImage.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FlippingAnImage.java)
-	 - [Hi.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/Hi.java)
 	 - [HowManyNumbersAreSmallerThanTheCurrentNumber.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/HowManyNumbersAreSmallerThanTheCurrentNumber.java)
 	 - [KidsWithTheGreatestNumberOfCandies.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/KidsWithTheGreatestNumberOfCandies.java)
 	 - [MeanOfArrayAfterRemovingSomeElements.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/MeanOfArrayAfterRemovingSomeElements.java)
