@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class FileReader1 {
+public class FileReader {
     public List<String> listFilesForFolder(final String folder) {
         List<String> files = new ArrayList<>();
         listFilesForFolderUtil(folder, files);
