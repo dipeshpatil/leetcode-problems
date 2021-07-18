@@ -2,17 +2,18 @@ name: README Generator Job
 on:
   push:
     branches:
-      - main
+      - indev
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: SetUp JDK
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v2
         with:
           distribution: 'adopt'
           java-version: '11'
+      - name: Navigate to Dir
       - run: |
           cd src/ZReadmeGenerator
-          javac ReadmeGenerator.java
-          java ReadmeGenerator
+          ls
