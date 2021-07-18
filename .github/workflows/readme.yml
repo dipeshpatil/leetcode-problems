@@ -1,0 +1,29 @@
+name: README.md Generator Job
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Generate README.md
+        run: npm run generate
+      - name: Push Code To GitHub
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: 'README.md'
+          author_name: Dipesh Patil
+          author_email: ${{secrets.EMAIL}}
+          default_author: github_actor
+          message: 'Your commit message'
+          signoff: true
+          tag: 'v1.0.0 --force'
