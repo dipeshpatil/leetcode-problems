@@ -22,7 +22,6 @@
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium)
 	 - [ContainerWithMostWater.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/ContainerWithMostWater.java)
 	 - [FindFirstAndLastPositionOfElementInSortedArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/FindFirstAndLastPositionOfElementInSortedArray.java)
-	 - [Hi.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/Hi.java)
 	 - [RotateImage.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/RotateImage.java)
 	 - [SearchInA2DMatrix.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SearchInA2DMatrix.java)
 	 - [SortColors.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SortColors.java)
