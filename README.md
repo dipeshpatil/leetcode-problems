@@ -1,4 +1,3 @@
-## LeetCode Problem Solving Java
 | [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
@@ -76,16 +75,3 @@
 	 - [FlattenBinaryTreeToLinkedList.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/FlattenBinaryTreeToLinkedList.java)
 	 - [InsertIntoABinarySearchTree.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/InsertIntoABinarySearchTree.java)
 
----
-### Note
-This `README.md` file is generated via `ReadmeGenerator.java` Class.
-
-If you want to maintain an index of your folder structure, Then run the `ReadmeGenerator.java` File located in `src/ZReadmeGenerator` before committing your changes to repository.
-
-Make sure to change the REMOTE CONFIG first in `ReadmeGenerator.java`
-```java
-// REMOTE CONFIG
-private static final String GITHUB_USERNAME = "<GITHUB_USERNAME>";
-private static final String GITHUB_REPO_NAME = "<GITHUB_REPO_NAME>";
-private static final String GITHUB_BRANCH_NAME = "<GITHUB_BRANCH_NAME>";
-```

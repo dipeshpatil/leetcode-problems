@@ -1,0 +1,32 @@
+name: README.md Generator Job
+on:
+  push:
+    branches:
+      - indev
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Generate README.md
+        run: |
+          git checkout indev
+          git checkout -b indev2
+          git pull origin indev
+          npm run generate
+      - name: Push Code To GitHub
+        run: |
+          git checkout indev2
+          git config --global user.email ${{secrets.EMAIL}}
+          git config --global user.name ${{secrets.USERNAME}}
+          git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/${{secrets.USERNAME}}/leetcode-problems.git
+          git add README.md
+          git commit -m "Generated README.md"
+          git push origin indev2
