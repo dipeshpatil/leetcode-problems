@@ -13,8 +13,7 @@ jobs:
           distribution: 'adopt' # See 'Supported distributions' for available options
           java-version: '11'
       - run: |
-        ls
-        cd src
-        cd ZReadmeGenerator
-        javac ReadmeGenerator.java
-        java ReadmeGenerator
+          ls
+          cd ./src/ZReadmeGenerator
+          javac ReadmeGenerator.java
+          java ReadmeGenerator
