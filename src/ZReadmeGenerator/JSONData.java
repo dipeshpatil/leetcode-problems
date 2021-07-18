@@ -41,7 +41,7 @@ public class JSONData {
     private static final String GITHUB_REPO_BLOB_URL = GITHUB_REPO_URL + "/blob/" + GITHUB_BRANCH_NAME + "/" + PARENT_DIR + "/";
 
     public static void main(String[] args) {
-        final FileReader reader = new FileReader();
+        final FileReader1 reader = new FileReader1();
         final List<String> categoryFolders = reader.listFolders(PARENT_DIR);
 
         final StringBuilder data = new StringBuilder("[");
