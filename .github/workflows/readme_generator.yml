@@ -14,6 +14,7 @@ jobs:
           java-version: '11'
       - run: |
         ls
-        cd "./src/ZReadmeGenerator"
+        cd src
+        cd ZReadmeGenerator
         javac ReadmeGenerator.java
         java ReadmeGenerator
