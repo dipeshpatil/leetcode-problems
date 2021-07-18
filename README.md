@@ -1,4 +1,4 @@
-| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
+| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
@@ -28,6 +28,10 @@
 	 - [SpiralMatrix.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrix.java)
 	 - [SpiralMatrixII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixII.java)
 	 - [SpiralMatrixIII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixIII.java)
+
+### [Math](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math)
+- [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math/Easy)
+	 - [SubtractTheProductAndSumOfDigitsOfAnInteger.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math/Easy/SubtractTheProductAndSumOfDigitsOfAnInteger.java)
 
 ### [String](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy)
