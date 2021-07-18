@@ -1,7 +1,7 @@
 const fs = require('fs');
 const util = require('util');
 
-const THINGS_TO_EXCLUDE = ['ZReadmeGenerator', 'TreeNode.java', undefined];
+const THINGS_TO_EXCLUDE = ['TreeNode.java', undefined];
 const ROOT_DIR = './src';
 const index = [];
 
@@ -74,6 +74,4 @@ for (let i = 0; i < index.length; i++) {
   }
 }
 
-fs.writeFileSync('README.md', content, () => {
-  console.log('README.md generated successfully');
-});
+fs.writeFileSync('README.md', content);
