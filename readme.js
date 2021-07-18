@@ -5,7 +5,7 @@ const THINGS_TO_EXCLUDE = ['ZReadmeGenerator', 'TreeNode.java', undefined];
 const ROOT_DIR = './src';
 const index = [];
 
-// REMOTE CONFIG
+// REMOTE CONFIGs
 const GITHUB_USERNAME = 'dipeshpatil';
 const GITHUB_REPO_NAME = 'leetcode-problems';
 const GITHUB_BRANCH_NAME = 'main';
