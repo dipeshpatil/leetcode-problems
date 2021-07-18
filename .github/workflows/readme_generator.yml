@@ -13,8 +13,6 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '11'
-      - run: java -version
-      - name: Navigate to Dir
       - run: |
-          cd src/ZReadmeGenerator
+          java -version
           ls
