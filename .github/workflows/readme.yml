@@ -18,7 +18,6 @@ jobs:
       - name: Generate README.md
         run: |
           git checkout indev
-          git checkout -b indev2
           git pull origin indev
           npm run generate
       - name: Push Code To GitHub
