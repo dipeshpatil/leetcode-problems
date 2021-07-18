@@ -14,8 +14,6 @@ jobs:
           distribution: 'adopt'
       - name: Build
         run: |
-          export CLASSPATH=/root/java
           git checkout indev
           cd ./src/ZReadmeGenerator
-          javac ReadmeGenerator.java
-          java ReadmeGenerator
+          java -cp java ReadmeGenerator
