@@ -17,3 +17,5 @@ jobs:
           git checkout indev
           cd ./src/ZReadmeGenerator
           ls
+          javac ReadmeGenerator.java
+          java ReadmeGenerator
