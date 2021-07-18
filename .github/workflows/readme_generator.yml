@@ -18,4 +18,5 @@ jobs:
           cd ./src/ZReadmeGenerator
           ls
           javac ReadmeGenerator.java
-          java ReadmeGenerator
+          cd ../../
+          ls
