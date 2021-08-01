@@ -14,6 +14,7 @@ const GITHUB_REPO_BLOB_URL =
   GITHUB_REPO_URL + '/blob/' + GITHUB_BRANCH_NAME + '/src/';
 
 let count = 0;
+let easy = 0, medium = 0, hard = 0;
 
 const getDirectories = (path, exclude = []) => {
   if (exclude)
@@ -66,6 +67,10 @@ for (let i = 0; i < index.length; i++) {
     if (item.levels[levels[j]]) {
       content += `- [${levels[j]}](${GITHUB_REPO_BLOB_URL}${item.category}/${levels[j]})\n`;
 
+      if (levels[j] === 'Easy') easy++
+      else if (levels[j] === 'Medium')  medium++;
+      else hard++;
+
       for (let l = 0; l < item.levels[levels[j]].length; l++) {
         const file = item.levels[levels[j]][l];
         content += `\t - [${file}](${GITHUB_REPO_BLOB_URL}${item.category}/${levels[j]}/${file})\n`;
@@ -76,5 +81,5 @@ for (let i = 0; i < index.length; i++) {
   }
 }
 
-let prepend = `Total Problems Solved - ${count}\n\nCategories\n\n`;
+let prepend = `Total Problems Solved - ${count}\nEasy - ${easy}, Medium - ${medium}, Hard - ${hard}\n\nCategories\n\n`;
 fs.writeFileSync('README.md', prepend + content);
