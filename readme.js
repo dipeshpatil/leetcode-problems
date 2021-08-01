@@ -1,5 +1,4 @@
 const fs = require('fs');
-const util = require('util');
 
 const THINGS_TO_EXCLUDE = ['TreeNode.java', undefined];
 const ROOT_DIR = './src';
@@ -77,5 +76,5 @@ for (let i = 0; i < index.length; i++) {
   }
 }
 
-let prepend = `---\nTotal Problems Solved - ${count}\n\nCategories\n\n`;
+let prepend = `Total Problems Solved - ${count}\n\nCategories\n\n`;
 fs.writeFileSync('README.md', prepend + content);
