@@ -1,4 +1,3 @@
----
 Total Problems Solved - 57
 
 Categories
