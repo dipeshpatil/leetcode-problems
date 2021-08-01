@@ -77,5 +77,5 @@ for (let i = 0; i < index.length; i++) {
   }
 }
 
-let prepend = `---\nTotal Problems Solved - ${count}\n\nCategories\n`;
+let prepend = `---\nTotal Problems Solved - ${count}\n\nCategories\n\n`;
 fs.writeFileSync('README.md', prepend + content);
