@@ -2,6 +2,7 @@
 Total Problems Solved - 57
 
 Categories
+
 | [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
