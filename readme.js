@@ -81,5 +81,5 @@ for (let i = 0; i < index.length; i++) {
   }
 }
 
-let prepend = `Total Problems Solved - ${count}\nEasy - ${easy}, Medium - ${medium}, Hard - ${hard}\n\nCategories\n\n`;
+let prepend = `Total Problems Solved - ${count}\n\nEasy - ${easy}, Medium - ${medium}, Hard - ${hard}\n\nCategories\n\n`;
 fs.writeFileSync('README.md', prepend + content);
