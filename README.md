@@ -1,8 +1,8 @@
-Total Problems Solved - 57
+Total Problems Solved - 59
 
 Categories
 
-| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
+| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [HashTables](https://github.com/dipeshpatil/leetcode-problems/#hashtables) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
@@ -29,10 +29,15 @@ Categories
 	 - [FindFirstAndLastPositionOfElementInSortedArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/FindFirstAndLastPositionOfElementInSortedArray.java)
 	 - [RotateImage.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/RotateImage.java)
 	 - [SearchInA2DMatrix.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SearchInA2DMatrix.java)
+	 - [SetMatrixZeroes.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SetMatrixZeroes.java)
 	 - [SortColors.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SortColors.java)
 	 - [SpiralMatrix.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrix.java)
 	 - [SpiralMatrixII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixII.java)
 	 - [SpiralMatrixIII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixIII.java)
+
+### [HashTables](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables)
+- [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables/Medium)
+	 - [ValidSudoku.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables/Medium/ValidSudoku.java)
 
 ### [Math](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math/Easy)
