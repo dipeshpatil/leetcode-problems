@@ -1,8 +1,8 @@
-Total Problems Solved - 59
+Total Problems Solved - 60
 
 Categories
 
-| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [HashTables](https://github.com/dipeshpatil/leetcode-problems/#hashtables) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
+| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [HashTables](https://github.com/dipeshpatil/leetcode-problems/#hashtables) | [LinkedList](https://github.com/dipeshpatil/leetcode-problems/#linkedlist) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
@@ -38,6 +38,10 @@ Categories
 ### [HashTables](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables)
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables/Medium)
 	 - [ValidSudoku.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables/Medium/ValidSudoku.java)
+
+### [LinkedList](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList)
+- [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Medium)
+	 - [AddTwoNumbers.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Medium/AddTwoNumbers.java)
 
 ### [Math](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math/Easy)
