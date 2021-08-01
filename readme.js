@@ -14,6 +14,8 @@ const GITHUB_REPO_URL =
 const GITHUB_REPO_BLOB_URL =
   GITHUB_REPO_URL + '/blob/' + GITHUB_BRANCH_NAME + '/src/';
 
+let count = 0;
+
 const getDirectories = (path, exclude = []) => {
   if (exclude)
     return fs.readdirSync(path).filter((item) => !exclude.includes(item));
@@ -68,10 +70,12 @@ for (let i = 0; i < index.length; i++) {
       for (let l = 0; l < item.levels[levels[j]].length; l++) {
         const file = item.levels[levels[j]][l];
         content += `\t - [${file}](${GITHUB_REPO_BLOB_URL}${item.category}/${levels[j]}/${file})\n`;
+        count++;
       }
       content += '\n';
     }
   }
 }
 
-fs.writeFileSync('README.md', content);
+let prepend = `---\nTotal Problems Solved - ${count}\n\nCategories\n`;
+fs.writeFileSync('README.md', prepend + content);
