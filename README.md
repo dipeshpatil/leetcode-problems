@@ -1,4 +1,5 @@
 Total Problems Solved - 60
+Easy - 4, Medium - 5, Hard - 2
 
 Categories
 
