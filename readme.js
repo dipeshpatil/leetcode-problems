@@ -67,9 +67,9 @@ for (let i = 0; i < index.length; i++) {
     if (item.levels[levels[j]]) {
       content += `- [${levels[j]}](${GITHUB_REPO_BLOB_URL}${item.category}/${levels[j]})\n`;
 
-      if (levels[j] === 'Easy') easy++
-      else if (levels[j] === 'Medium')  medium++;
-      else hard++;
+      if (levels[j] === 'Easy') easy += item.levels[levels[j]].length
+      else if (levels[j] === 'Medium')  medium += item.levels[levels[j]].length;
+      else hard += item.levels[levels[j]].length;
 
       for (let l = 0; l < item.levels[levels[j]].length; l++) {
         const file = item.levels[levels[j]][l];
