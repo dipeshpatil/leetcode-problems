@@ -26,6 +26,7 @@ Categories
 	 - [TwoSum.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/TwoSum.java)
 	 - [XOROperationInAnArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/XOROperationInAnArray.java)
 
+---
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium)
 	 - [ContainerWithMostWater.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/ContainerWithMostWater.java)
 	 - [FindFirstAndLastPositionOfElementInSortedArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/FindFirstAndLastPositionOfElementInSortedArray.java)
@@ -37,25 +38,31 @@ Categories
 	 - [SpiralMatrixII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixII.java)
 	 - [SpiralMatrixIII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixIII.java)
 
+---
 ### [DP](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP)
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP/Medium)
 	 - [UniquePaths.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP/Medium/UniquePaths.java)
 
+---
 ### [HashTables](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables)
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables/Medium)
 	 - [ValidSudoku.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables/Medium/ValidSudoku.java)
 
+---
 ### [LinkedList](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy)
 	 - [ConvertBinaryLinkedListToDecimal.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy/ConvertBinaryLinkedListToDecimal.java)
 
+---
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Medium)
 	 - [AddTwoNumbers.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Medium/AddTwoNumbers.java)
 
+---
 ### [Math](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math/Easy)
 	 - [SubtractTheProductAndSumOfDigitsOfAnInteger.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Math/Easy/SubtractTheProductAndSumOfDigitsOfAnInteger.java)
 
+---
 ### [String](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy)
 	 - [AddBinary.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/AddBinary.java)
@@ -69,14 +76,17 @@ Categories
 	 - [ValidPalindrome.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidPalindrome.java)
 	 - [ValidParenthesis.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidParenthesis.java)
 
+---
 - [Hard](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Hard)
 	 - [ValidNumber.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Hard/ValidNumber.java)
 
+---
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium)
 	 - [GroupAnagrams.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/GroupAnagrams.java)
 	 - [StringToIntegerAtoi.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/StringToIntegerAtoi.java)
 	 - [ZigzagConversion.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/ZigzagConversion.java)
 
+---
 ### [Tree](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy)
 	 - [BinaryTreePaths.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/BinaryTreePaths.java)
@@ -90,9 +100,11 @@ Categories
 	 - [SumOfLeftLeaves.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/SumOfLeftLeaves.java)
 	 - [SymmetricTree.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Easy/SymmetricTree.java)
 
+---
 - [Hard](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Hard)
 	 - [BinaryTreeCameras.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Hard/BinaryTreeCameras.java)
 
+---
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium)
 	 - [BinaryTreeInOrderTraversal.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreeInOrderTraversal.java)
 	 - [BinaryTreeLevelOrderTraversal.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreeLevelOrderTraversal.java)
@@ -102,3 +114,4 @@ Categories
 	 - [FlattenBinaryTreeToLinkedList.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/FlattenBinaryTreeToLinkedList.java)
 	 - [InsertIntoABinarySearchTree.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/InsertIntoABinarySearchTree.java)
 
+---
