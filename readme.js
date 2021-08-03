@@ -74,9 +74,11 @@ for (let i = 0; i < index.length; i++) {
         content += `\t - [${file}](${GITHUB_REPO_BLOB_URL}${item.category}/${levels[j]}/${file})\n`;
         count++;
       }
-      content += '\n---\n';
+      content += '\n';
     }
   }
+
+  content += "---\n"
 }
 
 let prepend = `Total Problems Solved - ${count}\n\nEasy - ${easy}, Medium - ${medium}, Hard - ${hard}\n\nCategories\n\n`;
