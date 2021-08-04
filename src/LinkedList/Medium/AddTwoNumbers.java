@@ -11,8 +11,8 @@ public class AddTwoNumbers {
         ListNode l1 = llu.makeList("2-4-3");
         ListNode l2 = llu.makeList("5-6-4");
 
-        o.displayList(o.addTwoNumbers(l1, l2));
-        //  7 0 8
+        llu.displayList(o.addTwoNumbers(l1, l2));
+        //  7-0-8
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -38,13 +38,6 @@ public class AddTwoNumbers {
             curr.next = new ListNode(carry);
 
         return head.next;
-    }
-
-    private void displayList(ListNode head) {
-        while (head != null) {
-            System.out.print(head.val + " ");
-            head = head.next;
-        }
     }
 }
 

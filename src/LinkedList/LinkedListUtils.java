@@ -12,7 +12,17 @@ public class LinkedListUtils {
             temp.next = new ListNode(Integer.parseInt(x), null);
             temp = temp.next;
         }
-
         return node.next;
+    }
+
+    public void displayList(ListNode node) {
+        while (node != null) {
+            if (node.next == null)
+                System.out.print(node.val);
+            else
+                System.out.print(node.val + "-");
+
+            node = node.next;
+        }
     }
 }
