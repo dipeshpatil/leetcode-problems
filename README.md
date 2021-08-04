@@ -1,6 +1,6 @@
-Total Problems Solved - 62
+Total Problems Solved - 63
 
-Easy - 38, Medium - 22, Hard - 2
+Easy - 38, Medium - 23, Hard - 2
 
 Categories
 
@@ -41,6 +41,7 @@ Categories
 ### [DP](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP)
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP/Medium)
 	 - [UniquePaths.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP/Medium/UniquePaths.java)
+	 - [UniquePathsII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP/Medium/UniquePathsII.java)
 
 ---
 ### [HashTables](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/HashTables)
