@@ -1,15 +1,18 @@
 package LinkedList.Medium;
 
+import LinkedList.LinkedListUtils;
 import LinkedList.ListNode;
 
 public class AddTwoNumbers {
     public static void main(String[] args) {
         AddTwoNumbers o = new AddTwoNumbers();
-        ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
-        ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+        LinkedListUtils llu = new LinkedListUtils();
+
+        ListNode l1 = llu.makeList("2-4-3");
+        ListNode l2 = llu.makeList("5-6-4");
 
         o.displayList(o.addTwoNumbers(l1, l2));
-        //  7, 0, 8,
+        //  7 0 8
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -39,7 +42,7 @@ public class AddTwoNumbers {
 
     private void displayList(ListNode head) {
         while (head != null) {
-            System.out.print(head.val + ", ");
+            System.out.print(head.val + " ");
             head = head.next;
         }
     }
