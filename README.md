@@ -1,10 +1,10 @@
-Total Problems Solved - 63
+Total Problems Solved - 64
 
-Easy - 38, Medium - 23, Hard - 2
+Easy - 38, Medium - 24, Hard - 2
 
 Categories
 
-| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [DP](https://github.com/dipeshpatil/leetcode-problems/#dp) | [HashTables](https://github.com/dipeshpatil/leetcode-problems/#hashtables) | [LinkedList](https://github.com/dipeshpatil/leetcode-problems/#linkedlist) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
+| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [BFS](https://github.com/dipeshpatil/leetcode-problems/#bfs) | [DP](https://github.com/dipeshpatil/leetcode-problems/#dp) | [HashTables](https://github.com/dipeshpatil/leetcode-problems/#hashtables) | [LinkedList](https://github.com/dipeshpatil/leetcode-problems/#linkedlist) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
@@ -36,6 +36,11 @@ Categories
 	 - [SpiralMatrix.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrix.java)
 	 - [SpiralMatrixII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixII.java)
 	 - [SpiralMatrixIII.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SpiralMatrixIII.java)
+
+---
+### [BFS](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/BFS)
+- [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/BFS/Medium)
+	 - [LetterCombinationsOfAPhoneNumber.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/BFS/Medium/LetterCombinationsOfAPhoneNumber.java)
 
 ---
 ### [DP](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/DP)
