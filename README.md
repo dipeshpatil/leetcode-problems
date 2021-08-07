@@ -1,6 +1,6 @@
-Total Problems Solved - 65
+Total Problems Solved - 67
 
-Easy - 39, Medium - 24, Hard - 2
+Easy - 39, Medium - 26, Hard - 2
 
 Categories
 
@@ -29,6 +29,7 @@ Categories
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium)
 	 - [ContainerWithMostWater.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/ContainerWithMostWater.java)
 	 - [FindFirstAndLastPositionOfElementInSortedArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/FindFirstAndLastPositionOfElementInSortedArray.java)
+	 - [KClosestPointsToOrigin.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/KClosestPointsToOrigin.java)
 	 - [RotateImage.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/RotateImage.java)
 	 - [SearchInA2DMatrix.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SearchInA2DMatrix.java)
 	 - [SetMatrixZeroes.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Medium/SetMatrixZeroes.java)
@@ -86,6 +87,7 @@ Categories
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium)
 	 - [GroupAnagrams.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/GroupAnagrams.java)
+	 - [PANTheGobbleMonster.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/PANTheGobbleMonster.java)
 	 - [StringToIntegerAtoi.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/StringToIntegerAtoi.java)
 	 - [ZigzagConversion.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/ZigzagConversion.java)
 
