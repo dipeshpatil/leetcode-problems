@@ -1,6 +1,6 @@
-Total Problems Solved - 67
+Total Problems Solved - 68
 
-Easy - 39, Medium - 26, Hard - 2
+Easy - 39, Medium - 27, Hard - 2
 
 Categories
 
@@ -87,6 +87,7 @@ Categories
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium)
 	 - [GroupAnagrams.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/GroupAnagrams.java)
+	 - [LongestPalindromicSubstring.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/LongestPalindromicSubstring.java)
 	 - [PANTheGobbleMonster.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/PANTheGobbleMonster.java)
 	 - [StringToIntegerAtoi.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/StringToIntegerAtoi.java)
 	 - [ZigzagConversion.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/ZigzagConversion.java)
