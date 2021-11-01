@@ -1,10 +1,10 @@
-Total Problems Solved - 69
+Total Problems Solved - 68
 
-Easy - 39, Medium - 27, Hard - 3
+Easy - 39, Medium - 27, Hard - 2
 
 Categories
 
-| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [BFS](https://github.com/dipeshpatil/leetcode-problems/#bfs) | [DP](https://github.com/dipeshpatil/leetcode-problems/#dp) | [HashTables](https://github.com/dipeshpatil/leetcode-problems/#hashtables) | [LinkedList](https://github.com/dipeshpatil/leetcode-problems/#linkedlist) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) | [golang](https://github.com/dipeshpatil/leetcode-problems/#golang) |
+| [Array](https://github.com/dipeshpatil/leetcode-problems/#array) | [BFS](https://github.com/dipeshpatil/leetcode-problems/#bfs) | [DP](https://github.com/dipeshpatil/leetcode-problems/#dp) | [HashTables](https://github.com/dipeshpatil/leetcode-problems/#hashtables) | [LinkedList](https://github.com/dipeshpatil/leetcode-problems/#linkedlist) | [Math](https://github.com/dipeshpatil/leetcode-problems/#math) | [String](https://github.com/dipeshpatil/leetcode-problems/#string) | [Tree](https://github.com/dipeshpatil/leetcode-problems/#tree) |
 
 ---
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
@@ -117,10 +117,5 @@ Categories
 	 - [BinaryTreeZigzagLevelOrderTraversal.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/BinaryTreeZigzagLevelOrderTraversal.java)
 	 - [FlattenBinaryTreeToLinkedList.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/FlattenBinaryTreeToLinkedList.java)
 	 - [InsertIntoABinarySearchTree.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Tree/Medium/InsertIntoABinarySearchTree.java)
-
----
-### [golang](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/golang)
-- [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/golang/Array)
-	 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/golang/Array/Easy)
 
 ---
