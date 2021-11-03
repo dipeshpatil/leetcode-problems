@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node readme.js",
-    "generateGo": "node golang.js"
+    "generate": "node readme.js"
   },
   "repository": {
     "type": "git",

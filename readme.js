@@ -1,13 +1,13 @@
 const fs = require('fs');
 
-const THINGS_TO_EXCLUDE = ['TreeNode.java', 'ListNode.java', 'LinkedListUtils.java', 'golang', undefined];
+const THINGS_TO_EXCLUDE = [undefined];
 const ROOT_DIR = './src';
 const index = [];
 
 // REMOTE CONFIGs
 const GITHUB_USERNAME = 'dipeshpatil';
 const GITHUB_REPO_NAME = 'leetcode-problems';
-const GITHUB_BRANCH_NAME = 'main';
+const GITHUB_BRANCH_NAME = 'leetcode-golang';
 const GITHUB_REPO_URL = 'https://github.com/' + GITHUB_USERNAME + '/' + GITHUB_REPO_NAME;
 const GITHUB_REPO_BLOB_URL = GITHUB_REPO_URL + '/blob/' + GITHUB_BRANCH_NAME + '/src/';
 
