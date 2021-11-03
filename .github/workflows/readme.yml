@@ -1,8 +1,8 @@
-name: README.md Generator Job
+name: GOLANG.md Generator Job
 on:
   push:
     branches:
-      - main
+      - leetcode-golang
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,12 +16,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Generate README.md
-        run: npm run generate
+        run: npm run generateGo
       - name: Push Code To GitHub
         uses: EndBug/add-and-commit@v7
         with:
-          add: 'README.md'
+          add: 'GOLANG.md'
           default_author: github_actor
-          message: 'Generated README.md'
+          message: 'Generated GOLANG.md'
           signoff: true
           tag: 'v1.0.0 --force'
