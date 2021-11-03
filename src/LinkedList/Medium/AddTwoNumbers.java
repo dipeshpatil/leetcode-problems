@@ -6,12 +6,11 @@ import LinkedList.ListNode;
 public class AddTwoNumbers {
     public static void main(String[] args) {
         AddTwoNumbers o = new AddTwoNumbers();
-        LinkedListUtils llu = new LinkedListUtils();
 
-        ListNode l1 = llu.makeList("2-4-3");
-        ListNode l2 = llu.makeList("5-6-4");
+        ListNode l1 = LinkedListUtils.makeList("2-4-3");
+        ListNode l2 = LinkedListUtils.makeList("5-6-4");
 
-        llu.displayList(o.addTwoNumbers(l1, l2));
+        LinkedListUtils.displayList(o.addTwoNumbers(l1, l2));
         //  7-0-8
     }
 
