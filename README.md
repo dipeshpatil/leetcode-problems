@@ -1,6 +1,6 @@
-Total Problems Solved - 68
+Total Problems Solved - 69
 
-Easy - 39, Medium - 27, Hard - 2
+Easy - 40, Medium - 27, Hard - 2
 
 Categories
 
@@ -58,6 +58,7 @@ Categories
 ### [LinkedList](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy)
 	 - [ConvertBinaryLinkedListToDecimal.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy/ConvertBinaryLinkedListToDecimal.java)
+	 - [MergeTwoSortedLists.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy/MergeTwoSortedLists.java)
 	 - [PalindromeLinkedList.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy/PalindromeLinkedList.java)
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Medium)
