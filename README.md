@@ -1,6 +1,6 @@
-Total Problems Solved - 4
+Total Problems Solved - 6
 
-Easy - 4, Medium - 0, Hard - 0
+Easy - 4, Medium - 2, Hard - 0
 
 Categories
 
@@ -13,5 +13,9 @@ Categories
 	 - [create_target_array_in_the_given_order.go](https://github.com/dipeshpatil/leetcode-problems/blob/leetcode-golang/src/Array/Easy/create_target_array_in_the_given_order.go)
 	 - [find_the_highest_altitude.go](https://github.com/dipeshpatil/leetcode-problems/blob/leetcode-golang/src/Array/Easy/find_the_highest_altitude.go)
 	 - [plus_one.go](https://github.com/dipeshpatil/leetcode-problems/blob/leetcode-golang/src/Array/Easy/plus_one.go)
+
+- [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/leetcode-golang/src/Array/Medium)
+	 - [k_closest_points_to_origin.go](https://github.com/dipeshpatil/leetcode-problems/blob/leetcode-golang/src/Array/Medium/k_closest_points_to_origin.go)
+	 - [sort_colors.go](https://github.com/dipeshpatil/leetcode-problems/blob/leetcode-golang/src/Array/Medium/sort_colors.go)
 
 ---
