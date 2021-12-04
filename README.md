@@ -1,6 +1,6 @@
-Total Problems Solved - 69
+Total Problems Solved - 70
 
-Easy - 40, Medium - 27, Hard - 2
+Easy - 41, Medium - 27, Hard - 2
 
 Categories
 
@@ -79,6 +79,7 @@ Categories
 	 - [DefangingAnIPAddress.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/DefangingAnIPAddress.java)
 	 - [GoalParserInterpretation.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/GoalParserInterpretation.java)
 	 - [ReverseString.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ReverseString.java)
+	 - [RomanToInteger.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/RomanToInteger.java)
 	 - [SortingTheSentence.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/SortingTheSentence.java)
 	 - [ValidPalindrome.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidPalindrome.java)
 	 - [ValidParenthesis.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidParenthesis.java)
