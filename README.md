@@ -1,6 +1,6 @@
-Total Problems Solved - 70
+Total Problems Solved - 71
 
-Easy - 41, Medium - 27, Hard - 2
+Easy - 42, Medium - 27, Hard - 2
 
 Categories
 
@@ -77,6 +77,7 @@ Categories
 	 - [CheckIfTwoStringArraysAreEquivalent.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfTwoStringArraysAreEquivalent.java)
 	 - [CheckIfWordEqualsSummationOfTwoWords.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfWordEqualsSummationOfTwoWords.java)
 	 - [DefangingAnIPAddress.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/DefangingAnIPAddress.java)
+	 - [ExcelSheetColumnTitle.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ExcelSheetColumnTitle.java)
 	 - [GoalParserInterpretation.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/GoalParserInterpretation.java)
 	 - [ReverseString.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ReverseString.java)
 	 - [RomanToInteger.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/RomanToInteger.java)
