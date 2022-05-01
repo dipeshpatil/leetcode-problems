@@ -1,6 +1,6 @@
-Total Problems Solved - 71
+Total Problems Solved - 72
 
-Easy - 42, Medium - 27, Hard - 2
+Easy - 43, Medium - 27, Hard - 2
 
 Categories
 
@@ -10,6 +10,7 @@ Categories
 ### [Array](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy)
 	 - [ArrayPartitionI.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/ArrayPartitionI.java)
+	 - [BestTimeToBuyAndSellStock.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/BestTimeToBuyAndSellStock.java)
 	 - [CreateTargetArrayInTheGivenOrder.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/CreateTargetArrayInTheGivenOrder.java)
 	 - [FindTheHighestAltitude.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FindTheHighestAltitude.java)
 	 - [FlippingAnImage.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/FlippingAnImage.java)
