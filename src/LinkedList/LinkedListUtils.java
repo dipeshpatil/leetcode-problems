@@ -4,7 +4,7 @@ public class LinkedListUtils {
     public LinkedListUtils() {
     }
 
-    public ListNode makeList(String input) {
+    public static ListNode makeList(String input) {
         ListNode node, temp = new ListNode(0, null);
         node = temp;
 
@@ -15,7 +15,7 @@ public class LinkedListUtils {
         return node.next;
     }
 
-    public void displayList(ListNode node) {
+    public static void displayList(ListNode node) {
         while (node != null) {
             if (node.next == null)
                 System.out.print(node.val);

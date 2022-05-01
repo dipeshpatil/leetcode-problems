@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const THINGS_TO_EXCLUDE = ['TreeNode.java', 'ListNode.java', 'LinkedListUtils.java', undefined];
+const THINGS_TO_EXCLUDE = ['TreeNode.java', 'ListNode.java', 'LinkedListUtils.java', 'golang', undefined];
 const ROOT_DIR = './src';
 const index = [];
 

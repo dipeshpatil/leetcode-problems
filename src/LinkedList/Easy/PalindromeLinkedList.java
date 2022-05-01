@@ -9,14 +9,13 @@ import java.util.Stack;
 public class PalindromeLinkedList {
     public static void main(String[] args) {
         PalindromeLinkedList o = new PalindromeLinkedList();
-        LinkedListUtils llu = new LinkedListUtils();
 
         System.out.println(
                 Arrays.toString(
                         new boolean[]{
-                                o.isPalindrome(llu.makeList("1-2-2-1")),
-                                o.isPalindrome(llu.makeList("1-2-1-3")),
-                                o.isPalindrome(llu.makeList("1-2-3-2-1"))
+                                o.isPalindrome(LinkedListUtils.makeList("1-2-2-1")),
+                                o.isPalindrome(LinkedListUtils.makeList("1-2-1-3")),
+                                o.isPalindrome(LinkedListUtils.makeList("1-2-3-2-1"))
                         }
                 )
         );

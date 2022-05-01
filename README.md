@@ -1,6 +1,6 @@
-Total Problems Solved - 67
+Total Problems Solved - 71
 
-Easy - 39, Medium - 26, Hard - 2
+Easy - 42, Medium - 27, Hard - 2
 
 Categories
 
@@ -58,6 +58,7 @@ Categories
 ### [LinkedList](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList)
 - [Easy](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy)
 	 - [ConvertBinaryLinkedListToDecimal.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy/ConvertBinaryLinkedListToDecimal.java)
+	 - [MergeTwoSortedLists.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy/MergeTwoSortedLists.java)
 	 - [PalindromeLinkedList.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Easy/PalindromeLinkedList.java)
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/LinkedList/Medium)
@@ -76,8 +77,10 @@ Categories
 	 - [CheckIfTwoStringArraysAreEquivalent.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfTwoStringArraysAreEquivalent.java)
 	 - [CheckIfWordEqualsSummationOfTwoWords.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/CheckIfWordEqualsSummationOfTwoWords.java)
 	 - [DefangingAnIPAddress.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/DefangingAnIPAddress.java)
+	 - [ExcelSheetColumnTitle.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ExcelSheetColumnTitle.java)
 	 - [GoalParserInterpretation.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/GoalParserInterpretation.java)
 	 - [ReverseString.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ReverseString.java)
+	 - [RomanToInteger.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/RomanToInteger.java)
 	 - [SortingTheSentence.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/SortingTheSentence.java)
 	 - [ValidPalindrome.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidPalindrome.java)
 	 - [ValidParenthesis.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Easy/ValidParenthesis.java)
@@ -87,6 +90,7 @@ Categories
 
 - [Medium](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium)
 	 - [GroupAnagrams.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/GroupAnagrams.java)
+	 - [LongestPalindromicSubstring.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/LongestPalindromicSubstring.java)
 	 - [PANTheGobbleMonster.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/PANTheGobbleMonster.java)
 	 - [StringToIntegerAtoi.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/StringToIntegerAtoi.java)
 	 - [ZigzagConversion.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/String/Medium/ZigzagConversion.java)

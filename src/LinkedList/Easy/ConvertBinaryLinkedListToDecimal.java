@@ -6,7 +6,7 @@ import LinkedList.ListNode;
 public class ConvertBinaryLinkedListToDecimal {
     public static void main(String[] args) {
         // 0-0-0-1-1-0-0-1-0
-        ListNode bll = new LinkedListUtils().makeList("0-0-0-1-1-0-0-1-0");
+        ListNode bll = LinkedListUtils.makeList("0-0-0-1-1-0-0-1-0");
 
         ConvertBinaryLinkedListToDecimal o = new ConvertBinaryLinkedListToDecimal();
         System.out.println(
