@@ -1,6 +1,6 @@
-Total Problems Solved - 72
+Total Problems Solved - 73
 
-Easy - 43, Medium - 27, Hard - 2
+Easy - 44, Medium - 27, Hard - 2
 
 Categories
 
@@ -22,6 +22,7 @@ Categories
 	 - [MoveZeroes.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/MoveZeroes.java)
 	 - [NumberOfGoodPairs.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/NumberOfGoodPairs.java)
 	 - [PlusOne.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/PlusOne.java)
+	 - [RotateArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/RotateArray.java)
 	 - [RunningSumOf1DArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/RunningSumOf1DArray.java)
 	 - [ShuffleTheArray.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/ShuffleTheArray.java)
 	 - [TwoSum.java](https://github.com/dipeshpatil/leetcode-problems/blob/main/src/Array/Easy/TwoSum.java)
